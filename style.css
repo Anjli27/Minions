@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.navigation ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li {
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+
+.navigation {
+    padding-top: 1rem;
+    color:white;
+    background-color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.first {
+    padding: 1rem;
+    text-align: center;
+    background-color: #F5E050;
+}
+
+.second {
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+}
+
+.second img {
+    max-width: 300px;
+}
+
+textarea {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    box-shadow: 0 0 5px black;
+}
+
+#output {
+    border: 3px solid black;
+    height: 60px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: block;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#btn-translate {
+    padding: 1rem;
+    background-color: #0a75bc;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+
+textarea::placeholder {
+    font-size: 1rem;
+    color:black;
+    padding-top: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li 
+{
+    display: inline;
+    padding-right: 0.5rem;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+

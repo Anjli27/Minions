@@ -3,33 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talk with Minions</title>
-    <style>
-        textarea {
-            width: 50%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-        }
-
-        #output {
-            border: 3px solid black;
-            height: 10vh;
-            width: 40%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
 </head>
 <body>
-    <h1>Banana Talk</h1>
-    <textarea id = "txt-input"
+    <nav class="navigation">
+        <div class="brand">Love Minions</div>
+        <ul>
+            <li><a href="">Talk with Minions</a></li>
+            <li id="display"><a class="active" href="">Love Minions</a></li>
+        </ul>
+    </nav>
+
+    <section class="first">
+        <img class="image" src="https://www.color-name.com/wp-content/uploads/minion-yellow.png" alt="">
+        <h2><strong></strong></h2>
+    </section>
+
+    <section class="second">
+        <h2 style="color:brown; font-size: 1.5rem;"><strong>Translator is Ready.</strong></h2>
+        <img src="https://www.funkidslive.com/wp-content/uploads/2014/11/minions-film-1-1024x275.jpg" alt="">
+    </section>
+
+    <section id="talk" class="first third">
+    <textarea id = "txt-input" cols="30" rows="7"
      placeholder="Talk to Minions :)" ></textarea>
-    <br>
+     <div id="output"></div>
     <button id="btn-translate">Translate</button>
-    <div id="output"></div>
+    
+    </section>
+
+    <footer>
+        <ul>
+            <li><a style="color: #E1306C" href="https://www.instagram.com/_anjli79___/" target="_blank">Instagram</a></li>
+            <li><a style="color: #333" href="https://github.com/Anjli27" target="_blank">Github</a></li>
+            <li><a style="color: #2867B2" href="https://www.linkedin.com/in/anjali-singla-383841171/" target="_blank">LinkedIn</a></li>
+           
+        </ul>
+    </footer>
+
+
     <script src="app.js" type="text/javaScript"></script>
 </body>
 </html>
